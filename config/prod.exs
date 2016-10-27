@@ -13,7 +13,7 @@ use Mix.Config
 # which you typically run after static files are built.
 config :phoenix_aurum, PhoenixAurum.Endpoint,
   http: [port: {:system, "PORT"}],
-  url: [scheme: "https", host: "sheltered-gorge-39414.herokuapp.com", port: 443],
+  url: [scheme: "https", host: "phoenix-aurum.herokuapp.com", port: 443],
   force_ssl: [rewrite_on: [:x_forwarded_proto]],
   cache_static_manifest: "priv/static/manifest.json"
 
